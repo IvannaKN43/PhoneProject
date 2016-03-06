@@ -159,6 +159,7 @@ public class MainFrame extends JFrame {
 		
 
 		btnAdd.addActionListener(new ActionListener() {
+			
 			public void actionPerformed(ActionEvent arg0) {
 				String phoneNumber = textFieldPhone.getText(),
 						surname = textFieldSurname.getText(),
