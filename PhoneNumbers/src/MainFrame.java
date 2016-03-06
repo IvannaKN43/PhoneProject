@@ -91,7 +91,7 @@ public class MainFrame extends JFrame {
 		panelInput.add(textFieldSurname);
 		textFieldSurname.setColumns(10);
 		
-		JLabel lblName = new JLabel("\u0406\u043C'\u044F: ");
+		JLabel lblName = new JLabel("Ім'я: ");
 		lblName.setFont(new Font("Comic Sans MS", Font.BOLD, 13));
 		lblName.setForeground(new Color(47, 79, 79));
 		panelInput.add(lblName);
@@ -124,7 +124,7 @@ public class MainFrame extends JFrame {
 		panelInput.add(textFieldOrganisation);
 		textFieldOrganisation.setColumns(10);
 		
-		JButton btnAdd = new JButton("\u0414\u043E\u0434\u0430\u0442\u0438");
+		JButton btnAdd = new JButton("Додати");
 		btnAdd.setBackground(new Color(173, 255, 47));
 		btnAdd.setFont(new Font("Comic Sans MS", Font.BOLD, 13));
 		btnAdd.setForeground(new Color(0, 100, 0));
@@ -135,7 +135,7 @@ public class MainFrame extends JFrame {
 		panelFind.setBorder(new LineBorder(new Color(0, 0, 0), 2, true));
 		panelTop.add(panelFind, BorderLayout.CENTER);
 		
-		JLabel lblLookFor = new JLabel("\u0417\u0430\u0434\u0430\u0439\u0442\u0435 \u043F\u0430\u0440\u0430\u043C\u0435\u0442\u0440 \u043F\u043E\u0448\u0443\u043A\u0443 :");
+		JLabel lblLookFor = new JLabel("Задайте параметр пошуку :");
 		lblLookFor.setForeground(new Color(128, 0, 0));
 		lblLookFor.setFont(new Font("Comic Sans MS", Font.BOLD, 13));
 		panelFind.add(lblLookFor);
